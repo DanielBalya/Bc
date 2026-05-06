@@ -134,5 +134,4 @@ Az API külső időjárási adatokat biztosít:
 
 9. MEGJEGYZÉS
 
-
 A projekt oktatási célból, szakdolgozat részeként készült.
