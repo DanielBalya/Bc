@@ -71,16 +71,24 @@ A rendszer újraindítása után a szenzor használhatóvá válik.
 A projekt futtatásához szükséges a Pimoroni virtuális Python környezet használata,
 amely Raspberry Pi OS alatt lett telepítve.
 
--1. A virtuális környezet aktiválása:
+-1 A virtualenv csomag telepítése:
+
+sudo apt install python3-venv
+
+Virtuális környezet létrehozása:
+
+python3 -m venv ~/.virtualenvs/pimoroni
+
+-2. A virtuális környezet aktiválása:
 
 source ~/.virtualenvs/pimoroni/bin/activate
 
--2. A programok indítása:
+-3. A programok indítása:
 
 python3 app.py
 python3 weather_logger.py
 
--3. A webes felület megnyitása böngészőben:
+-4. A webes felület megnyitása böngészőben:
 
 http://localhost:8080
 
