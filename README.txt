@@ -29,6 +29,10 @@ Raspberry Pi OS operációs rendszer használatával.
 A projekt futtatásához szükséges a Pimoroni virtuális Python környezet használata,
 amely Raspberry Pi OS alatt lett telepítve.
 
+A python külső könyvtárainak telepítése:
+
+pip install flask requests bme680 RPi.GPIO
+
 A virtualenv csomag telepítése:
 
 sudo apt install python3-venv
