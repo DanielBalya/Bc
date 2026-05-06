@@ -27,8 +27,6 @@ Mért adatok:
 A projekt fejlesztése és tesztelése Raspberry Pi 4 eszközön történt,
 Raspberry Pi OS operációs rendszer használatával.
 
-A forráskód közvetlenül a Raspberry Pi eszközön lett írva és szerkesztve.
-
 Használt technológiák:
 - Python 3.11
 - Flask
@@ -70,13 +68,17 @@ A rendszer újraindítása után a szenzor használhatóvá válik.
 
 5. A PROJEKT FUTTATÁSA
 
+A projekt futtatásához szükséges a Pimoroni virtuális Python környezet használata,
+amely Raspberry Pi OS alatt lett telepítve.
+
 -1. A virtuális környezet aktiválása:
 
 source ~/.virtualenvs/pimoroni/bin/activate
 
--2. A program indítása:
+-2. A programok indítása:
 
 python3 app.py
+python3 weather_logger.py
 
 -3. A webes felület megnyitása böngészőben:
 
